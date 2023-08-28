@@ -1,0 +1,9 @@
+.todo-item {
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo-item:not(:last-child) {
+  border-bottom: 1px solid grey;
+}
